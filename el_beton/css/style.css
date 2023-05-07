@@ -1,0 +1,1299 @@
+/* font-family: "RobotoSlabRegular"; */
+@font-face {
+    font-family: "RobotoSlabRegular";
+    src: url("../fonts/RobotoSlabRegular/RobotoSlabRegular.eot");
+    src: url("../fonts/RobotoSlabRegular/RobotoSlabRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RobotoSlabRegular/RobotoSlabRegular.woff") format("woff"),
+    url("../fonts/RobotoSlabRegular/RobotoSlabRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RobotoSlabLight"; */
+@font-face {
+    font-family: "RobotoSlabLight";
+    src: url("../fonts/RobotoSlabLight/RobotoSlabLight.eot");
+    src: url("../fonts/RobotoSlabLight/RobotoSlabLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RobotoSlabLight/RobotoSlabLight.woff") format("woff"),
+    url("../fonts/RobotoSlabLight/RobotoSlabLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RobotoSlabBold"; */
+@font-face {
+    font-family: "RobotoSlabBold";
+    src: url("../fonts/RobotoSlabBold/RobotoSlabBold.eot");
+    src: url("../fonts/RobotoSlabBold/RobotoSlabBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RobotoSlabBold/RobotoSlabBold.woff") format("woff"),
+    url("../fonts/RobotoSlabBold/RobotoSlabBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+*
+{
+	box-sizing: border-box;
+}
+
+.slider
+{
+display: none;
+}
+
+
+html, body
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+        font-family: "DINPro", Helvetica, sans-serif;
+        background: #f1f1f1;
+}
+
+.wrapper
+{
+        background: #ffffff; 
+        max-width:1100px;
+        margin:0 auto;
+        position: relative;
+}
+
+#znaki_kachestva
+{
+        display:none;
+}
+
+a 
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover 
+{
+	text-decoration: underline;
+}
+
+.main
+{
+	padding:0;
+        margin:0;
+	position: relative;
+        height: 100%;
+}
+
+.header
+{
+ 	position: relative;  
+        padding:0;
+        margin:0;
+        text-align: center;
+	background-color: #ffffff;
+        font-family: "DINPro", Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: 400;
+        color: black;
+        line-height: 1.5em;
+}
+
+.elementy_hedera 
+{
+        text-align: center;
+        height:100%;
+        width: 100%;
+        position: relative;
+        margin:0;
+        border: 0px solid #000000;
+}
+
+
+
+
+
+
+
+
+
+.logo 
+{
+        width: 100%;
+        border: 0px solid #000000;
+        margin: 0;
+        z-index:5;
+        text-align:center;
+}
+
+.blok_tel_1
+{
+        width: 100%;
+        margin: 0em;
+        border:0px solid #000000;
+        font-size: 1em;
+        float: right;
+        font-family: "DINPro", Helvetica, sans-serif;
+}
+
+.blok_tel_1 ul
+{
+        list-style-type:none;
+}
+
+.blok_tel_1 span 
+{
+       font-weight:bold;
+}
+
+.blok_tel_2
+{
+        width: 100%;
+        margin: 0em;
+        border:0px solid #000000;
+        font-size: 1em;
+        float: right;
+        font-family: "DINPro", Helvetica, sans-serif;
+}
+
+.blok_tel_2 ul
+{
+        list-style-type:none;
+}
+
+.blok_tel_2 span 
+{
+       font-weight:bold;
+}
+
+.blok_priem_zaiavok
+{
+       display:none;
+}
+
+.blok_priem_zaiavok ul
+{
+        list-style-type:none;
+}
+
+.blok_priem_zaiavok span 
+{
+        font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img.galery
+{
+	border: solid #ee5819 5px;
+}
+
+img 
+{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+h2
+{
+	text-align: center;
+}
+
+.form
+{
+	padding: 16px 30px;
+}
+
+.form input, .form textarea
+{
+	padding: 0 10px;
+	width: 100%;
+	height: 50px;
+	border: 1px solid #ddd;
+	margin-top: 5px;
+	margin-bottom: 20px;
+        font-family: "DINPro", Helvetica, sans-serif;
+	font-weight: 100;
+	color: #444;
+	font-size: 20px;
+}
+
+.form textarea
+{
+	min-height: 120px;
+	resize: none;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+ul
+{
+	list-style-image: url(images/li.png);
+}
+
+.top_menu
+{
+        display: none;
+}
+
+.links
+{
+        font-family: "DINPro", Helvetica, sans-serif;
+        margin:0;
+        font-size: 2em;
+        display:inline-block;
+        width: 100%;
+        border: 0px solid #000000;
+	text-align: center;
+	background-color: #df0024;
+	height: 40px;
+	line-height: 40px;
+}
+
+.links>a:not(.open-menu)
+{
+        margin:0;
+	display: inline-block;
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	transition: .3s;
+}
+
+.links>a:hover
+{
+        margin:0;
+	background: #ffffff;
+	color: #df0024;
+	text-decoration: none;
+}
+
+
+.links
+{
+}
+
+.left_blok 
+{
+        display: none;
+}
+
+.left_blok_fon
+{
+        background: url("fon_left_block.png");
+        background-repeat: repeat;
+        background-position: left top;
+}
+
+
+.content
+{
+	background-color: white;
+	color: black;
+	font-size: 2em;
+	margin: 0em auto;
+        border-top: 0px solid #ffffff;
+	width: 100%;
+	padding: 15px 0px;
+	border-radius: 2px;
+        text-align: center;
+        text-indent: 1em;
+        font-family: "DINPro", Helvetica, sans-serif;
+        line-height: 1.5;
+}
+
+.content h1
+{
+        font-family: "DINPro", Helvetica, sans-serif;
+	font-size: 1.5em;
+}
+
+.content p
+{
+        font-family: "DINPro", Helvetica, sans-serif;
+	font-size: 0.5em;
+	margin-top: 0.5em;
+	padding: 0px 1.7em;
+        text-align: justify;
+}
+
+.content p a
+{
+        color: #1B7499;
+        text-decoration: none;
+}
+
+.content p a:hover
+{
+        color: #df0024;
+        text-decoration: underline;
+}
+
+.left_saitbar
+{
+        width: 170px;
+        border: 0px solid #000000;
+        float: left;
+}
+
+.ul_spisok
+{
+	font-size: 0.5em;
+        text-align: left;
+        font-weight: bold;
+        margin: 1em 2em;
+}
+
+#lab1
+{
+        width: 100%;
+        margin: 0em;
+}
+
+#lab2
+{
+        width: 100%;
+        margin: 0em;
+}
+
+#lab8
+{
+        display:none;
+}
+
+#fbs_24_4_6
+{
+        width: 100%;
+        margin: 0em;
+}
+
+#bloki_fbs
+{
+        width: 100%;
+        margin: 0em;
+}
+
+#kirpich
+{
+        width: 100%;
+        margin: 0em;
+}
+
+#kirpich_krpu
+{
+        width: 100%;
+        margin: 0em;
+}
+
+#autobetonosmesitel_6
+{
+        width: 100%;
+        margin: 0em;
+}
+
+#autobetonosmesitel_8
+{
+        width: 100%;
+        margin: 0em;
+}
+
+#samosval_20
+{
+        width: 100%;
+        margin: 0em;
+}
+
+#korona_box_telezhki
+{
+        width: 100%;
+        margin: 0em;
+}
+
+.img_info
+{
+       margin:1em 0;
+}
+
+.sertifikaty
+{
+
+        width: 100%;
+        margin: 0em auto;
+        text-align: center;
+}
+
+
+#atestat
+{
+        float: none;
+        width: 10em;
+        margin:0.5em 1.5em;
+}
+
+#iso
+{
+        width: 10em;
+        margin:0.5em 1.5em;
+}
+
+#menu_stroymaterialy
+{
+	 border-top: 1px solid #ccc;
+	 border-bottom: 1px solid #ccc;
+         text-align: left;
+         color: #000000;
+	 font-size: 0.6em;
+}
+
+#menu_stroymaterialy dir
+{
+        list-style-type: disc;
+}
+
+#menu_stroymaterialy a
+{
+        color: #1B7499;
+        text-decoration: none;
+}
+
+#menu_stroymaterialy a:hover
+{
+        color: #df0024;
+        text-decoration: underline;
+}
+
+#adres_el_beton
+{
+        text-align: left;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        margin: 0;
+        padding: 0;
+        width: 100%; 
+}
+
+#adres_el_beton p
+{
+        text-indent: 0em;
+
+        border: 0px solid #000000;
+}
+
+#adres_el_beton button
+{
+        margin-left: 2em;
+
+}
+
+#ElKarta
+{
+        display: none;
+}
+
+
+#SliderContent
+{
+
+     width: 100%-176px;
+     border: 0px solid #000000;
+     margin-left: 176px;
+}
+
+#pdf_rekvizity
+{
+     float: right;
+     
+}
+
+.info_kontakty
+{
+     border: 0px solid #000000;
+     text-align: center;
+     display: inline-block;
+     vertical-align: text-top;
+}
+
+.info_kontakty p
+{ 
+     text-align: center;
+}
+
+.advantage_block
+{
+        border: 0px solid #000000;
+        padding: 0.5em;
+        background-color: #cad1d5;
+        font-family: "DINPro", Helvetica, sans-serif;
+        font-size: 0.75em;
+        margin-bottom: 0.3em;
+        vertical-align: middle;
+        height: 5.5em;
+        text-align: center;
+}
+
+.advantage_block img
+{
+        width: 45px;
+        float: left;
+        border: 0px solid #000000;
+        margin: 0.2em;
+}
+
+.advantage_block p
+{
+        margin: 0.8em auto;
+        text-shadow: 0px 1px 1px #fff;
+}
+
+.advantage_block p strong
+{
+        margin: 0.5em auto;
+        text-transform: uppercase;
+        text-shadow: 0px 1px 1px #fff;
+}
+
+.knopka_blok
+{
+        padding: 0.5em;
+        margin: 0.5em 0;
+        background-color: #df0024;
+        display: inline-block;
+        opacity: 0.8;
+}
+
+.knopka_blok:hover
+{
+        background-color: #df0024;
+        opacity: 1;
+}
+
+.footer
+{
+	font-family: sans-serif;
+	text-align: center;
+	color: #ffffff;
+	background-color: #453943;
+	padding: 10px;
+}
+
+.razrab>a
+{
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.razrab>a:hover
+{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.icon-circle-up
+{
+	display: none;
+	background: #453943;
+	z-index: 3;
+	width: 40px;
+	height: 40px;
+	bottom: 50px; right: 20px;
+	line-height: 40px;
+	text-align: center;
+	position: fixed;
+	cursor: pointer;
+	transition: .2s;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+}
+
+.icon-circle-up:before
+{
+	line-height: 40px;
+}
+
+.icon-circle-up:hover
+{
+	font-size: 24px;
+	text-decoration: none;
+}
+
+
+
+
+.open-menu
+{
+	 display: none;
+}
+
+
+
+
+
+p
+{
+	margin: 20px 0;
+}
+
+.nav
+{
+        font: bolder 1em "Trebuchet MS", Verdana, Arial;
+        padding-top: 10px;
+        border:0px solid #000000;
+        padding-left: 30px;
+        height: 2em;
+        margin:0;
+}
+
+.nav a
+{
+        color: #1B7499;
+        text-decoration: none;
+}
+
+
+.nav a:hover
+{
+        color:#df0024;
+        text-decoration: underline;
+}
+
+.smap
+{
+        border: 0px solid #000000;
+        display:inline-block;
+        font-family: "DINPro", Helvetica, sans-serif;
+	font-size: 0.7em;
+        list-style-type:disc;
+        text-align: left;
+        width:17em;
+}
+
+.smap a
+{
+        color:#000000;
+        text-decoration: none;
+}
+
+.smap a:hover
+{
+        color:#df0024;
+        text-decoration: underline;
+}
+
+
+.smap1
+{
+        border: 0px solid #000000;
+        display:inline-block;
+        font-family: "DINPro", Helvetica, sans-serif;
+	font-size: 0.7em;
+        list-style-type:disc;
+        text-align: left;
+        width: 17em;
+}
+
+.smap1 a
+{
+        color:#000000;
+        text-decoration: none;
+}
+
+.smap1 a:hover
+{
+        color:#df0024;
+        text-decoration: underline;
+}
+
+#align_karta_saita
+{
+       text-align:left;
+}
+
+.tabl_beton
+{       
+        display: none;
+        font-family: "DINPro", Helvetica, sans-serif;
+	font-size: 0.5em;
+        margin: 0 auto;
+        padding: 0;
+        text-indent: 0em;
+        width:100%;
+}
+
+.tabl_beton td
+{
+              padding: 0em 1em;
+              vertical-align: middle;
+}      
+
+.tabl_beton tr:first-child 
+{
+        	background-color: #453943 !important;
+                color: #ffffff;
+                text-align: center;
+}
+
+.tabl_beton tr:nth-child(odd) 
+{
+        	background-color: #f1f1f1;
+}
+
+.tabl_beton tr:nth-child(even) 
+{
+        	background-color: #ffc6cf;
+}
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 530px){
+
+.top_menu
+{
+        display: block;
+        width: 100%;
+	background-color: #453943;
+        color: #ffffff;
+	line-height: 40px;
+	padding: 0 20px;
+        opacity: 1;
+        font-size: 0.813em;
+        text-align: center;
+}
+
+.top_menu a 
+{
+
+        margin: 0 1em;
+        text-decoration: underline;
+}
+
+.top_menu a:hover 
+{
+
+        text-decoration: none;
+}
+
+}
+
+
+
+@media all and (max-width: 554px){
+    .blok_tel_1, .blok_tel_2 {
+        display: none;
+    }
+
+    .logo {
+        padding: 20px 0;
+    }
+}
+
+
+
+
+
+@media all and (min-width: 555px){
+.elementy_hedera 
+{
+        height:10em;
+}
+
+.logo 
+{
+        margin: 10px 0em;
+}
+
+.blok_tel_1
+{
+        width: 12em;
+        margin-top: 2em;
+        margin-left: 1em;
+        nargin-right: 1em;
+        border:0px solid #000000;
+        display: block;
+        float: left;
+}
+
+.blok_tel_2
+{
+        width: 12em;
+        margin-top: 2.8em;
+        margin-left: 1em;
+        nargin-right: 1em;
+        border:0px solid #000000;
+        display: block;
+}
+
+}
+
+
+@media all and (min-width: 570px){
+.slider
+{
+        display: block;        
+}
+
+.content
+{ 
+        margin: 0em auto;
+	border-top: 5px solid #df0024;
+
+}
+}
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 701px){
+.tabl_beton
+{
+        display: table;
+}
+
+
+#align_karta_saita
+{
+       text-align: center;
+}
+
+#lab1
+{
+        width: 8em;
+        float: right;
+        margin: 0.5em 1em 0.5em 1em;
+}
+
+#lab2
+{
+        width: 8em;
+        float: left;
+        margin: 0.5em 1em 0.5em 1em;
+}
+
+#lab8
+{
+        display:block;
+        width: 4em;
+        float: right;
+        margin: 0.5em 1em 0.5em 1em;
+}
+
+#fbs_24_4_6
+{
+        width: 8em;
+        float: right;
+        margin: 0.5em 1em 0.5em 1em;
+}
+
+#bloki_fbs
+{
+        width: 10em;
+        float: left;
+        margin: 0.5em 1em 0.5em 1em;
+}
+
+#kirpich
+{
+        width: 4em;
+        float: right;
+        margin: 0.5em 1em 0.5em 1em;
+}
+
+#kirpich_krpu
+{
+        width: 4em;
+        float: left;
+        margin: 0.5em 1em 0.5em 1em;
+}
+
+#autobetonosmesitel_6
+{
+        width: 7em;
+
+        margin: 0.5em 1em 0.5em 1em;
+}
+
+#autobetonosmesitel_8
+{
+        width: 7em;
+
+        margin: 0.5em 1em 0.5em 1em;
+}
+
+#samosval_20
+{
+        width: 7em;
+        margin: 0.5em 1em 0.5em 1em;
+}
+
+#korona_box_telezhki
+{
+        width: 7em;
+        float: right;
+        margin: 0.5em 1em 0.5em 1em;
+}
+
+.open-menu
+{
+	 display: none;
+}
+
+.header 
+{
+        height:250px;
+}
+
+.top_menu
+{
+        text-align:left;
+}
+
+.blok_tel_1
+{
+        margin-bottom: 0.5em;
+        margin-left: 11em;      
+        margin-right: 1em;     
+        border:0px solid #000000;
+}
+
+.blok_tel_2
+{
+        margin-top: 3em;
+        margin-bottom: 0.5em;    
+        margin-right: 0em;  
+        border:0px solid #000000;
+        float: left;
+}
+
+.blok_priem_zaiavok
+{
+        width: 22em;
+        margin: 4.1em 1em;
+        border:0px solid #000000;
+        display: block;
+        font-size: 1em;
+        float: left;
+        font-family: "DINPro", Helvetica, sans-serif;
+}
+
+#znaki_kachestva
+{
+          height: 5em;
+          width: 11em;
+          padding:0em;
+          display:block;
+          position: absolute;
+          right:2%;
+          bottom:60%;
+          z-index:9000000;
+}
+
+#znaki_kachestva img
+{
+          float:right;
+          height:100%;
+}
+
+
+
+.blok 
+{
+          position: absolute;
+          left:5%;
+          top:35%;
+          margin: 1em auto;
+          font-family: "DINPro", Helvetica, sans-serif;
+          font-size: 1em;
+}
+
+
+.blok img
+{
+          width: 110%;
+          opacity:0.85;
+}
+
+.blok span
+{
+          position: absolute;
+          left:5%;
+          top:5%;
+}
+
+.block_zaglavie
+{
+          font-size: 2em;
+          margin-bottom: 0.3em;
+}
+
+.logo 
+{
+          width: 11em;
+          margin:0em;
+          position: absolute;
+          left:0%;
+          top:12%;
+          max-height:8.6em;
+}
+
+.links
+{
+        margin:0;
+        display:inline-block;
+        width: 84%;
+        border-right: 0em solid #ffffff;
+	text-align: center;
+	font-size: 1em;
+	background-color: #df0024;
+        position: absolute;
+        right:0%;
+        bottom:2%;
+}
+}
+
+
+
+
+
+
+
+@media all and (min-width: 1101px){
+.nav
+{
+       margin-left: 11em;
+}
+
+.left_blok 
+{
+        display: block;
+        border: 1px solid #000000;
+        float: left;
+	width: 11em;
+}
+
+.header 
+{
+        height:200px;
+}
+
+.blok_tel_1
+{
+        margin-top: 0.5em;
+}
+
+.blok_tel_2
+{
+        margin-top: 1.2em;
+}
+
+.blok_priem_zaiavok
+{
+        margin-top: 2em;
+        margin-left: 1em;
+}
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 1100px){
+#znaki_kachestva
+{
+          bottom:68%;
+}
+
+.links
+{
+         width: 100%;
+         right:0%;
+         bottom:1%;  
+}
+
+h1 
+{
+	font-size: 40px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1000px){
+.blok_priem_zaiavok
+{
+        display:none;
+}
+
+.links>a:not(.open-menu)
+{
+        padding: 0 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px){
+    #iso, #atestat
+    {
+        float: left;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    h1 
+    {
+        font-size: 25px;
+    }
+
+
+    #SliderContent {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .left_saitbar {
+        display: none;
+    }
+
+	.open-menu
+	{
+		display: inline-block;
+		padding: 0 30px;
+		font-size: 30px;
+	}
+	.links>a:not(.open-menu)
+	{
+		display: none;
+	}
+	.links.active
+	{
+		height: auto;
+	}
+	.links.active>a:not(.open-menu)
+	{
+		display: block;
+	}
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 700px) {
+.content h1 {
+    font-size: 1em;
+}
+
+.block_zaglavie
+{
+          font-size: 1em;
+          margin-bottom: 0.3em;
+}
+
+.blok 
+{
+          position: absolute;
+          left:5%;
+          top:25%;
+          margin: 1em auto;
+          font-weight: 200;
+        font-family: "DINPro", Helvetica, sans-serif;
+          font-size: 1em;
+}
+
+.blok img
+{
+          width: 100%;
+          opacity:0.85;
+}
+
+.blok span
+{
+          position: absolute;
+          left:5%;
+          top:5%;
+}
+
+.bx-wrapper img,
+.bx-wrapper, .bx-viewport 
+{
+	 height: auto;
+}
+
+
+
+h1 
+{
+	font-size: 30px;
+}
+}
